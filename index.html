@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>디지털 뉴딜</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/animate.css/3.1.0/animate.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="./asset/js/jquery.counterup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        .animation{
+            opacity: 0;
+        }
+
+        .animated{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div id="global">
+            <div class="wrap_center">
+                <a href="" target="_blank">과학기술정보통신부</a>
+                <a href="" target="_blank">NIA 한국정보화진흥원</a>
+                <div class="sns">
+                    <a href="">Twitter</a>
+                    <a href="">Facebook</a>
+                    <a href="">Youtube</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrap_center area_gnb">
+            <h1>
+                <a href="">로고</a>
+            </h1>
+            <nav id="nav">
+                <a href="">사업 소개</a>
+                <a href="">뉴스&소식</a>
+                <a href="">홍보자료</a>
+            </nav>
+        </div>
+
+    </header>
+    <!-- // #header -->
+
+    <div id="content">
+        <div class="visual" style="height:1000px; border: 1px solid red">
+            비주얼 영역
+        </div>
+        <div class="wrap_count">
+            <div class="box animation" data-animation="fadeInUp" data-animation-delay="0s">
+                <p>총 사업 수</p>
+                <span class="num">153</span>개
+            </div>
+            <div class="box animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+                <p>사업비</p>
+                <span class="num">42</span>억
+            </div>
+            <div class="box animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                <p>총 사업 수</p>
+                <span class="num">153</span>개
+            </div>
+        </div>
+    </div>
+    <!-- // #content -->
+
+    <footer id="footer">
+        <div class="wrap_center">
+            <div class="area_list">
+                <ul>
+                    <li><a href="">개인정보처리방침</a></li>
+                    <li><a href="">저작권 정책</a></li>
+                    <li><a href="">찾아오시는 길</a></li>
+                    <li>개인정보보호책임자 : 실장 금봉수</li>
+                </ul>
+            </div>
+            <div class="area_address">
+                <ul>
+                    <li><em>대구본원</em> : 대구광역시 동구 첨단로 53 (41068) 대표전화 053-230-1114 </li>
+                    <li><em>서울사무소</em> : 서울특별시 중구 청계천로 14 (04520) 대표전화 02-6191-2114</li>
+                    <li><em>제주 NIA 글로벌센터</em> : 제주특별자치도 서귀포시 서호중앙로 68-11 (63568) 대표전화 064-909-3114 </li>
+                    <li class="copyright">Copyright © 2017 한국정보화진흥원. All Rights Reserved.</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('.num').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+        $(function(){
+            function onScrollInit( items, trigger ) {
+                items.each( function() {
+                    var element = $(this),
+                        animationClass = element.attr('data-animation'),
+                        animationDelay = element.attr('data-animation-delay');
+
+                    element.css({
+                        '-webkit-animation-delay':  animationDelay,
+                        '-moz-animation-delay':     animationDelay,
+                        'animation-delay':          animationDelay
+                    });
+
+                    var Trigger = ( trigger ) ? trigger : element;
+
+                    Trigger.waypoint(function() {
+                        element.addClass('animated').addClass(animationClass);
+                    },{
+                        triggerOnce: true,
+                        offset: '90%'
+                    });
+                });
+            }
+
+            onScrollInit( $('.animation') );
+            onScrollInit( $('.animation'), $('.animation-container') );
+        });
+    </script>
+</body>
+</html>
