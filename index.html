@@ -20,11 +20,11 @@
 <header id="header">
     <div class="wrap_center area_gnb">
         <div class="area_relate">
-            <a href="https://www.msit.go.kr/" target="_blank">
-                <img src="./asset/images/img_logo_msit.png" class="msit" alt="">
-            </a>
             <a href="https://www.nia.or.kr/" target="_blank">
                 <img src="./asset/images/img_logo_nia.png" class="nia" alt="">
+            </a>
+            <a href="https://www.msit.go.kr/" target="_blank">
+                <img src="./asset/images/img_logo_msit.png" class="msit" alt="">
             </a>
         </div>
         <h1>
@@ -38,12 +38,12 @@
             <a href="" class="logo"><!-- [D] 홈으로 -->
                 <img src="./asset/images/img_logo.png" width="123" alt="디지털 뉴딜">
             </a>
-            <a href="" class="link" target="_blank">사업 소개</a>
-            <a href="" class="link">뉴스&소식</a>
+            <a href="" class="link" target="_blank">사업소개</a>
+            <a href="" class="link">알림마당</a>
             <a href="" class="link">홍보자료</a>
             <div class="relate">
-                <a href="https://www.msit.go.kr/" target="_blank">과학기술정보통신부</a>
-                <a href="https://www.nia.or.kr/" target="_blank">한국정보화진흥원</a>
+                <a href="https://www.nia.or.kr/" target="_blank"><img src="./asset/images/img_logo_nia.png" class="nia" width="100" alt="한국정보화진흥원"></a>
+                <a href="https://www.msit.go.kr/" target="_blank"><img src="./asset/images/img_logo_msit.png" class="msit" width="110" alt="과학기술정보통신부"></a>
             </div>
         </nav>
     </div>
@@ -51,7 +51,7 @@
 <!-- // #header -->
 
 <div id="content" class="main">
-    <div class="slider slider_noauto visual_slider">
+    <div class="slider slider_visual visual_slider">
         <div>
             <div class="slide_image" style="background-image:url('./asset/images/img_visual.png');">
                 <img src="./asset/images/img_visual.png" alt="">
@@ -68,8 +68,8 @@
             </div>
         </div>
         <div>
-            <div class="slide_image" style="background-image:url('./asset/images/img_visual.png');">
-                <img src="./asset/images/img_visual.png" alt="">
+            <div class="slide_image" style="background-image:url('./asset/images/img_visual2.png');">
+                <img src="./asset/images/img_visual2.png" alt="">
             </div>
             <div class="area_text">
                 <div class="wrap_center">
@@ -84,8 +84,8 @@
             </div>
         </div>
         <div>
-            <div class="slide_image" style="background-image:url('./asset/images/img_visual.png');">
-                <img src="./asset/images/img_visual.png" alt="">
+            <div class="slide_image" style="background-image:url('./asset/images/img_visual3.png');">
+                <img src="./asset/images/img_visual3.png" alt="">
             </div>
             <div class="area_text">
                 <div class="wrap_center">
@@ -116,7 +116,7 @@
 
             <div class="col_4">
                 <article class="box_m box_main box_main2 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-                    <h2 class="tit1">뉴스 &amp; 소식</h2>
+                    <h2 class="tit1">알림마당</h2>
                     <p class="txt">
                         디지털 뉴딜 관련 진행현황, 언론보도 등<br />
                         다양한 최신 소식을  확인하실 수 있습니다.
@@ -135,7 +135,7 @@
                 <article class="box_l">
                     <h2 class="tit2">디지털 뉴딜 주요내용</h2>
                     <div class="slider slider_fade slider_arrow slider_l">
-                        <div>
+                        <div class="bg1">
                             <div class="inner">
                                 <h3>D.N.A 생태계 강화</h3>
                                 <p class="txt">
@@ -150,7 +150,7 @@
                                 </ol>
                             </div>
                         </div>
-                        <div>
+                        <div class="bg2">
                             <div class="inner">
                                 <h3>교육 인프라 디지털화</h3>
                                 <p class="txt">
@@ -164,7 +164,7 @@
                                 </ol>
                             </div>
                         </div>
-                        <div>
+                        <div class="bg3">
                             <div class="inner">
                                 <h3>비대면 산업 육성</h3>
                                 <p class="txt">
@@ -178,7 +178,7 @@
                                 </ol>
                             </div>
                         </div>
-                        <div>
+                        <div class="bg4">
                             <div class="inner">
                                 <h3>SOC 디지털화</h3>
                                 <p class="txt">
@@ -268,13 +268,16 @@
         $(".link_youtube").YouTubePopUp( { autoplay: 0 } );
 
         // slick slider 활성화
-        $('.slider_noauto').slick({
-            dots: false,
+        $('.slider_visual').slick({
+            dots: true,
+            fade: true,
+            autoplay: true,
+            speed: 1000,
         });
 
         $('.slider_fade').slick({
             dots: false,
-            fade: true,
+            speed: 1000,
         });
 
         $('.slider_s').slick({

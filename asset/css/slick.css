@@ -117,3 +117,6 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.slick-slide:not(.slick-active) {
+    transition-delay: 500ms !important;
+}
