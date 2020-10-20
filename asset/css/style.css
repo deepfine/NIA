@@ -16,6 +16,7 @@ div:focus {outline: none}
 .clearfix:after {content:""; display: block; clear: both}
 .wrap_center {max-width: 1200px; margin:0 auto; position: relative;}
 ._full_height {height: 100%}
+.font_blue {color: #007dff;}
 
 .animation{opacity: 0;}
 .animated{opacity: 1;}
@@ -61,6 +62,28 @@ div:focus {outline: none}
 #content .tab li {float: left;height: 50px;width:50%;border-top: 1px solid #1a428a;border-right: 1px solid #dedede;border-bottom: 1px solid #b6b6b6;text-align: center;display: table;}
 #content .tab li a {display: table-cell;height: 50px;line-height: 1.1em;vertical-align: middle;word-break: keep-all;}
 #content .tab li a.active {background: #1a428a; color: #fff; font-weight: bold;}
+#content .area_tit {padding: 70px 0 50px; text-align: center;}
+#content .area_tit .tit {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -1.33px;
+    color: #212121;
+}
+#content .area_tit .tit_sub {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 2.43px;
+    color: #979797;
+    padding: 5px 0 30px;
+}
+#content .area_tit .txt {
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: -0.8px;
+    text-align: center;
+    color: #000000;
+}
+
 
 /* main */
 .visual_slider .area_text {position: absolute;left:0;right:0;top:0;bottom:0;height:100%;width: 100%;color: #fff;}
@@ -86,10 +109,10 @@ div:focus {outline: none}
 /* layout */
 .wrap_col {margin:0 -10px;}
 .wrap_col:after {content:""; display: block; clear: both}
-.wrap_col .row {
-    margin-bottom: 20px;}
+.wrap_col .row {margin-bottom: 20px;}
 [class*="col_"] {float:left;padding:0 10px;}
 .col_4 {width: 33.3333333333333%;}
+.col_6 {width: 50%}
 .col_8 {width: 66.666667%}
 .box_m .link_youtube {position: relative; display: block; overflow: hidden;background-color:#000;}
 .box_m .link_youtube:after {content: "";position: absolute;width: 75px;height: 75px;left: 50%;top: 50%;transform : translate(-50%, -50%);background: url('../images/icon_youtube_play.png') no-repeat;background-size: cover;}
@@ -98,12 +121,20 @@ div:focus {outline: none}
 
 .box_l h3 {font-size: 28px;font-weight: bold;letter-spacing: -0.93px;color: #007dff;margin-bottom: 14px;}
 .box_l .txt {font-size: 15px;font-style: normal;line-height: 1.6;letter-spacing: -0.5px;color: #000;margin-bottom: 25px;}
-.box_l .inner li {position: relative;padding-left: 44px;min-height: 19px}
+.box_l .inner li {position: relative;padding-left: 28px;min-height: 19px}
 .box_l .inner li + li {margin-top: 8px}
 .box_l .inner li:after {width: 19px;line-height: 19px;display: inline-block;position: absolute;left: 0;top: 0;content: '1';background: #e6e6e6;border-radius: 100%;text-align: center;font-size: 13px;color: #666;}
 .box_l .inner li.no2:after {content:'2'}
 .box_l .inner li.no3:after {content:'3'}
 .box_l .inner li.no4:after {content:'4'}
+.box_l .inner li.no5:after {content:'5'}
+.box_l .inner li.no6:after {content:'6'}
+.box_l .inner li.no7:after {content:'7'}
+.box_l .inner li.no8:after {content:'8'}
+.box_l .inner li.no9:after {content:'9'}
+.box_l .inner li.no10:after {content:'10'}
+.box_l .inner li.no11:after {content:'11'}
+.box_l .inner li.no12:after {content:'12'}
 
 .area_total {position: relative; font-size: 16px; padding: 0 0 18px;}
 .area_total .num {color: #248fff}
@@ -189,6 +220,7 @@ div:focus {outline: none}
 .slick-dotted.slick-slider {margin:0}
 .slider .img_mois {width: 155px;}
 .slider .img_msit {width: 208px;}
+.slider .img_moef {width: 148px;}
 .slider .mouse {
     z-index: 10;
     position: absolute;
@@ -241,6 +273,9 @@ div:focus {outline: none}
 .slider_l .bg2 {background: url('../images/bg_slider_edu.png') no-repeat 93% 50%;background-size: 261px;}
 .slider_l .bg3 {background: url('../images/bg_slider_noface.png') no-repeat 93% 50%;background-size: 242px;}
 .slider_l .bg4 {background: url('../images/bg_slider_soc.png') no-repeat 93% 50%;background-size: 232px;}
+.slider_long {height: 619px}
+.slider_long .inner {padding-right:10px;}
+.slider_long [class*="bg"] {height: 100%; background-position: 93% 90%;}
 
 /*.slider_l .slick-list, .slider_l .slick-track, .slider_l .slick-slide {height: 100%;}*/
 /*.slider_visual, .slider_visual .slick-track, .slider_visual .slick-slide {height:100vh}*/
@@ -289,7 +324,7 @@ div:focus {outline: none}
 .box_l .control {
     z-index: 1000;
     position: absolute;
-    left: 38px;
+    left: 40px;
     bottom: 43px;
     top: auto;
     padding:0;
@@ -324,7 +359,7 @@ div:focus {outline: none}
 }
 .area_thumbnail li img {width:100%;}
 .area_thumbnail li a {display: block; position: relative;}
-.area_thumbnail li a:after {content: "";position: absolute;width: 48px;height: 48px;left:50%;top:50%;margin:-24px 0 0 -24px;background: url('../images/icon_play.png') no-repeat 50% 50%;background-size: 48px;}
+.area_thumbnail li a:after {content: "";position: absolute;width: 48px;height: 48px;top:80px;left:50%;margin-left:-24px;background: url('../images/icon_play.png') no-repeat 50% 50%;background-size: 48px;}
 .area_thumbnail li a .title {
     font-weight: 500;
     font-size: 17px;
@@ -391,6 +426,7 @@ div:focus {outline: none}
     #header .area_relate .nia {width: 100px;}
     #content {padding-bottom: 100px;}
     #content .tit_content {font-size: 28px;padding: 50px 0 30px;}
+    #content .area_tit .tit {font-size: 28px;}
     .area_detail {padding:30px 30px 70px;}
     .area_detail.news .date {display:block; position: relative; top:0; left:0;margin:10px 0 30px;}
     .area_detail.news {padding: 10px 0 60px;}
@@ -403,7 +439,14 @@ div:focus {outline: none}
 }
 
 @media screen and (max-width: 760px) {
-    .col_4 {width: 100%;}
+    .col_4, .col_6 {width: 100%;}
+    .col_6 {margin-bottom: 20px}
+    .slider_long {height: auto}
+    .slider_l .inner {padding: 30px;}
+    #content .area_tit .txt {word-break:keep-all;word-wrap:break-word; text-align: left}
+    #content .area_tit .txt br {display: none;}
+    .box_l h3 {font-size: 22px;}
+    .slider_long [class*="bg"] {background: none}
     .row .col_4 {width: 50%; margin-bottom: 20px}
     .wrap_col .row {margin-bottom: 0;}
     .wrap_main_content {padding-top: 20px;}
@@ -418,7 +461,7 @@ div:focus {outline: none}
 @media screen and (max-width: 500px) {
     .slider_l {height: 340px}
     .slider_l .inner {padding: 20px;}
-
+    .slider_long {height: auto}
 }
 
 @media screen and (max-width: 450px) {
@@ -447,3 +490,6 @@ div:focus {outline: none}
     .visual_slider .txt {margin: 20px 0 5px; font-size: 16px;}
     .visual_slider .txt2 {font-size: 18px;}
 }
+
+/* 사업소개 */
+.box_intro {}
