@@ -210,7 +210,7 @@ div:focus {outline: none}
 .area_pagenation li + li {border-top: 1px solid #ddd}
 .area_thumbnail {border-bottom: 1px solid #bfbfbf; border-top: 3px solid #212121; padding-top: 40px}
 .area_thumbnail ul {margin:0 -20px}
-.area_thumbnail li {float:left; width:33.333333%; padding:0 20px 40px;}
+.area_thumbnail li {float:left; width:33.333333%; padding:0 20px 40px; min-height: 311px}
 
 .slider {position: relative;width: 100%;margin-bottom: 50px;transition: all 1.0s ease-in-out;}
 .slider .slide_image {opacity: 1;height: calc(100% - 140px);background-size: cover;background-position: center;}
@@ -353,13 +353,16 @@ div:focus {outline: none}
 [class*="btn_m"] {min-width: 120px;min-height: 40px;line-height:20px;display: inline-block;text-align: center;padding:10px 15px;}
 [class*="m_blue"] {background-color: #007dff;color:#fff;}
 
+@media screen and (max-width: 1199px) {
+    .area_thumbnail li {min-height: auto}
+}
 
 @media screen and (max-width: 768px) {
     .area_thumbnail li {width:50%;}
 }
 .area_thumbnail li img {width:100%;}
 .area_thumbnail li a {display: block; position: relative;}
-.area_thumbnail li a:after {content: "";position: absolute;width: 48px;height: 48px;top:80px;left:50%;margin-left:-24px;background: url('../images/icon_play.png') no-repeat 50% 50%;background-size: 48px;}
+.area_thumbnail li a:after {content: "";position: absolute;width: 48px;height: 48px;top:50%;left:50%;margin:-50px 0 0 -24px;background: url('../images/icon_play.png') no-repeat 50% 50%;background-size: 48px;}
 .area_thumbnail li a .title {
     font-weight: 500;
     font-size: 17px;
