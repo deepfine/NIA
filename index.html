@@ -50,7 +50,9 @@
 <div id="content" class="main">
     <div class="slider slider_visual visual_slider">
         <div>
-            <div class="slide_image" style="background-image:url('./asset/images/img_visual_new.png');"></div>
+            <div class="slide_image" style="background-image:url('./asset/images/img_visual.png');">
+                <img src="./asset/images/img_visual.png" alt="">
+            </div>
             <div class="area_text">
                 <div class="wrap_center">
                     <p class="txt">한국판 뉴딜 그리고 새로운 가치와 일자리</p>
@@ -58,12 +60,14 @@
                         대한민국 대전환의 시작<br />
                         디지털로부터!
                     </p>
-                    <a href="https://msit.go.kr/web/msipContents/contents.do?mId=ODcy" class="link" target="_blank">국민소개 바로가기</a>
+                    <a href="https://msit.go.kr/web/msipContents/contents.do?mId=ODcy" class="link" target="_blank">국민참여 바로가기</a>
                 </div>
             </div>
         </div>
         <div>
-            <div class="slide_image" style="background-image:url('./asset/images/img_visual2_new.png');"></div>
+            <div class="slide_image" style="background-image:url('./asset/images/img_visual2.png');">
+                <img src="./asset/images/img_visual2.png" alt="">
+            </div>
             <div class="area_text">
                 <div class="wrap_center">
                     <p class="txt">디지털뉴딜의 4대 분야</p>
@@ -77,7 +81,9 @@
             </div>
         </div>
         <div>
-            <div class="slide_image" style="background-image:url('./asset/images/img_visual3_new.png');"></div>
+            <div class="slide_image" style="background-image:url('./asset/images/img_visual3.png');">
+                <img src="./asset/images/img_visual3.png" alt="">
+            </div>
             <div class="area_text">
                 <div class="wrap_center">
                     <p class="txt">미래산업과 행정혁신을 선도하는 안전 &middot; 편리한  ‘똑똑한 나라’</p>
@@ -251,7 +257,7 @@
             speed: 1000,
             arrows: false,
         });
-        $( '.slider_visual' ).prepend( '<div class="mouse"><p>SCROLL DOWN</p></div>' );
+        //$( '.slider_visual' ).prepend( '<div class="mouse"><p>SCROLL DOWN</p></div>' );
 
         $('.slider_l').slick({
             dots: true,
@@ -334,22 +340,22 @@
         onScrollInit( $('.animation'), $('.animation-container') );
 
         // full 높이
-        $('body, html').addClass('_full_height');
+        //$('body, html').addClass('_full_height');
 
 
         // visual 이미지
-        function visualResize() {
-            if ($(window).width() < 900) {
-                $(".slide_image").height($(window).height() - 123);
-            } else {
-                $(".slide_image").height($(window).height() - 140);
-            }
-        }
-        visualResize();
-
-        $(window).resize(function() {
-            visualResize();
-        });
+        // function visualResize() {
+        //     if ($(window).width() < 900) {
+        //         $(".slide_image").height($(window).height() - 123);
+        //     } else {
+        //         $(".slide_image").height($(window).height() - 140);
+        //     }
+        // }
+        // visualResize();
+        //
+        // $(window).resize(function() {
+        //     visualResize();
+        // });
     });
 </script>
 </body>
