@@ -21,10 +21,10 @@ div:focus {outline: none}
 .animation{opacity: 0;}
 .animated{opacity: 1;}
 
-#header {position: relative; text-align: center; padding:40px 0;}
+#header {position: relative; text-align: center; padding:25px 0;}
 #header h1 {display: inline-block;}
-#header h1 img {width: 230px;}
-#header .btn_drawer {display: none;position: absolute;right: 0;bottom:21.5px;width: 24px;height: 17px;background: url('../images/icon_drawer.png') no-repeat;background-size: cover;}
+#header h1 img {width: 110px;}
+#header .btn_drawer {display: none;position: absolute;right: 0;bottom:23.5px;width: 24px;height: 17px;background: url('../images/icon_drawer.png') no-repeat;background-size: cover;}
 #header .area_relate {position: absolute; left:0; top:50%; transform: translateY(-50%);}
 #header .area_relate .msit {width: 212px;}
 #header .area_relate .nia {width: 138px; margin-top: 6px; display: inline-block}
@@ -55,7 +55,7 @@ div:focus {outline: none}
 /*    bottom:10px;*/
 /*}*/
 a:hover {text-decoration: none; color:inherit}
-#content .location {height: 50px;background-color: #0080ff;font-size: 14px;color: #fff;}
+#content .location {height: 50px;background-color: #003b96;font-size: 14px;color: #fff;}
 #content .location .home {display: inline-block; width: 50px; height:50px; margin-right:20px; border-right: 1px solid  #eaeaea; border-left: 1px solid  #eaeaea;background: url("../images/icon_home.png") no-repeat 50% 50%; background-size: 16px;vertical-align: middle;opacity: 0.4;}
 #content .location .text {vertical-align: middle;}
 #content .tit_content {font-size: 40px;font-weight: bold;letter-spacing: normal;text-align: center;color: #212121;padding:70px 0 40px;}
@@ -211,7 +211,7 @@ margin-top: 4px;
     font-size: 34px;
     font-weight: bold;
     letter-spacing: -1.13px;
-    color: #007dff;
+    color: #003b96;
 }
 .box_l.box_intro .txt {
     font-size: 30px;
@@ -570,8 +570,8 @@ margin-top: 4px;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: #fff;
-    background-color: #007dff;
-    border-color: #007dff;
+    background-color: #003b96;
+    border-color: #003b96;
     font-weight: bold;
 }
 
@@ -726,7 +726,7 @@ margin-top: 4px;
 @media screen and (max-width: 900px) {
     #content .area_tit {padding: 50px 0 30px}
     #nav {display: none;position: fixed;background: #fff;top: 0;left: 100%;width: 100%;height: 100%;visibility: hidden;transition: visibility .55s, height .55s, left .35s;overflow: hidden;z-index: 999;display: flex;flex-direction: column;justify-content: center;transform: none;padding-left: 80px;}
-    #nav._open {visibility: visible;left:0;display: flex;}
+    #nav._open {visibility: visible;left:0;display: flex; z-index: 100000;}
     #nav .logo {display: block;position: absolute;top:14px;left: 16px;}
     #nav .relate {display: block;opacity:0;position: absolute;bottom: 40px;}
     #nav .relate a + a {margin-left: 20px}
@@ -740,8 +740,8 @@ margin-top: 4px;
     #nav .close {display: block;position: absolute;right: 20px;top: 20px;width: 20px;height: 20px;background: url('../images/icon_drawer_close.png') no-repeat;background-size: cover;}
     #header {padding:0; text-align: left;}
     #header .area_relate {position: relative;padding:15px 0 15px 20px;background-color: #f5f5f5; left:auto; top:auto; transform: none;}
-    #header h1 {margin:14px 0 14px 0}
-    #header h1 img {width: 160px;}
+    #header h1 {margin:10px 0}
+    #header h1 img {width: 50px;}
     #header .btn_drawer {display: block;}
     #header .area_relate .msit {width: 120px;}
     #header .area_relate .nia {width: 100px;}
@@ -768,6 +768,11 @@ margin-top: 4px;
     .list_num > li {font-size: 16px;}
     .list_num > li:after {width: 23px; height: 23px; border-width: 2px}
 }
+
+@media (orientation: landscape) {
+    #nav .link {padding:15px 0;font-size: 18px;}
+}
+
 
 @media screen and (max-width: 760px) {
     .col_4, .col_6 {width: 100%;}
