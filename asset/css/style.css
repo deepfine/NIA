@@ -63,7 +63,7 @@ a:hover {text-decoration: none; color:inherit}
 #content .tab li {float: left;height: 50px;width:50%;border-top: 1px solid #1a428a;border-right: 1px solid #dedede;border-bottom: 1px solid #b6b6b6;text-align: center;display: table;}
 #content .tab li a {display: table-cell;height: 50px;line-height: 1.1em;vertical-align: middle;word-break: keep-all;}
 #content .tab li a.active {background: #1a428a; color: #fff; font-weight: bold;}
-/*#content .area_tit {padding: 70px 0 50px; text-align: center;}*/
+#content .area_tit {padding: 70px 0 50px; text-align: center;}
 #content .area_tit .tit {
     font-size: 40px;
     font-weight: bold;
@@ -264,6 +264,7 @@ margin-top: 4px;
 .area_detail.news .detail_file {margin-top: 80px;}
 .area_detail.news .file {position: relative;display: inline-block;border: 1px solid #bfbfbf;padding:20px 70px 20px 65px;background: url('../images/icon_file.png') no-repeat 30px 50%;background-size: 28px;font-size: 16px;min-width: 670px;}
 .area_detail.news .file + .file {margin-top: 10px;}
+#content .area_detail .area_tit {padding:0; text-align: left}
 @media screen and (max-width: 840px) {
     .area_detail.news .detail_file {margin-top: 30px;}
     .area_detail.news .file {min-width: 100%;}
@@ -777,7 +778,7 @@ margin-top: 4px;
 }
 
 @media screen and (max-width: 900px) {
-    /*#content .area_tit {padding: 50px 0 30px}*/
+    #content .area_tit {padding: 50px 0 30px}
     #nav {display: none;position: fixed;background: #fff;top: 0;left: 100%;width: 100%;height: 100%;visibility: hidden;transition: visibility .55s, height .55s, left .35s;overflow: hidden;z-index: 999;display: flex;flex-direction: column;justify-content: center;transform: none;padding-left: 80px;}
     #nav._open {visibility: visible;left:0;display: flex; z-index: 100000;}
     #nav .logo {display: block;position: absolute;top:14px;left: 16px;}
