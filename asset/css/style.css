@@ -63,7 +63,7 @@ a:hover {text-decoration: none; color:inherit}
 #content .tab li {float: left;height: 50px;width:50%;border-top: 1px solid #1a428a;border-right: 1px solid #dedede;border-bottom: 1px solid #b6b6b6;text-align: center;display: table;}
 #content .tab li a {display: table-cell;height: 50px;line-height: 1.1em;vertical-align: middle;word-break: keep-all;}
 #content .tab li a.active {background: #1a428a; color: #fff; font-weight: bold;}
-#content .area_tit {padding: 70px 0 50px; text-align: center;}
+/*#content .area_tit {padding: 70px 0 50px; text-align: center;}*/
 #content .area_tit .tit {
     font-size: 40px;
     font-weight: bold;
@@ -498,7 +498,7 @@ margin-top: 4px;
 
 /* 버튼 */
 [class*="btn_m"] {min-width: 120px;min-height: 40px;line-height:20px;display: inline-block;text-align: center;padding:10px 15px;}
-[class*="m_blue"] {background-color: #007dff;color:#fff;}
+[class*="m_blue"] {background-color: #007dff;color:#fff!important;}
 
 @media screen and (max-width: 1199px) {
     .area_thumbnail li {min-height: auto}
@@ -680,17 +680,70 @@ margin-top: 4px;
 /*}*/
 .modal .img_100 {width: 100%}
 
+
 .modal-body {padding: 0}
-.modal-content .btn_close {
-    z-index: 10;
-    width: 52px;
-    height: 52px;
-    position: absolute;
-    right: -52px;
-    top:0;
-    background: #000 url('../images/icon_x.png') no-repeat 50% 50%;
-    background-size: 21px;
+/*.modal-content .btn_close {*/
+/*    z-index: 10;*/
+/*    width: 52px;*/
+/*    height: 52px;*/
+/*    position: absolute;*/
+/*    right: -52px;*/
+/*    top:0;*/
+/*    background: #000 url('../images/icon_x.png') no-repeat 50% 50%;*/
+/*    background-size: 21px;*/
+/*}*/
+.modal .area_today {
+    position: relative;
+    background: #000;
+    color:#fff;
+    padding: 8px 15px;
 }
+.modal .area_today .btn_close {
+    position: absolute;
+    right: 15px;
+    top: 7px;
+    border: solid 1px #686868;
+    font-size: 14px;
+    letter-spacing: -0.8px;
+    color: #fff;
+    padding: 3px 7px;
+    background: #000;
+}
+.modal .area_today .checkbox {
+    display: inline-block;
+}
+.modal .area_today .checkbox input {
+    position: absolute;
+    left: -50000px;
+
+
+}
+.modal .area_today .checkbox label {
+    position: relative;
+    padding-left: 31px;
+    font-size: 14px;
+    letter-spacing: -0.8px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin:0;
+}
+.modal .area_today .checkbox label:before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left:0;
+    top:0;
+    background: url('../images/icon_checkbox.png') no-repeat;
+    background-size: 22px;
+    transition: all .2s ease;
+}
+.modal .area_today input:checked + label:before {
+    background: url('../images/icon_checkbox_checked.png') no-repeat;
+    background-size: 22px;
+}
+
+
 @media (min-width: 992px) {
     .modal-lg, .modal-xl {
         max-width: 600px;
@@ -724,7 +777,7 @@ margin-top: 4px;
 }
 
 @media screen and (max-width: 900px) {
-    #content .area_tit {padding: 50px 0 30px}
+    /*#content .area_tit {padding: 50px 0 30px}*/
     #nav {display: none;position: fixed;background: #fff;top: 0;left: 100%;width: 100%;height: 100%;visibility: hidden;transition: visibility .55s, height .55s, left .35s;overflow: hidden;z-index: 999;display: flex;flex-direction: column;justify-content: center;transform: none;padding-left: 80px;}
     #nav._open {visibility: visible;left:0;display: flex; z-index: 100000;}
     #nav .logo {display: block;position: absolute;top:14px;left: 16px;}
