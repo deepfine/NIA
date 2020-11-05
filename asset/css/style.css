@@ -18,6 +18,7 @@ div:focus {outline: none}
 ._full_height {height: 100%}
 .font_blue {color: #007dff;}
 .mt-10 {margin-top: 10px}
+.break {word-break: keep-all; word-wrap: break-word;}
 
 .animation{opacity: 0;}
 .animated{opacity: 1;}
@@ -905,6 +906,8 @@ margin-top: 4px;
 }
 
 @media screen and (max-width: 900px) {
+    #content .area_tit .txt {text-align: left}
+    #content .area_tit .txt br {display: none;}
     #content .area_tit {padding: 50px 0 30px}
     #nav {display: none;position: fixed;background: #fff;top: 0;left: 100%;width: 100%;height: 100%;visibility: hidden;transition: visibility .55s, height .55s, left .35s;overflow: hidden;z-index: 999;display: flex;flex-direction: column;justify-content: center;transform: none;padding-left: 80px;}
     #nav._open {visibility: visible;left:0;display: flex; z-index: 100000;}
@@ -962,7 +965,6 @@ margin-top: 4px;
     .slider_long {height: auto}
     /*.slider_l .inner {padding: 30px;}*/
     #content .area_tit .txt {word-break:keep-all;word-wrap:break-word; text-align: left}
-    #content .area_tit .txt br {display: none;}
     .box_l h3 {font-size: 22px;}
     .slider_long [class*="bg"] {background: none}
     .row .col_4 {width: 50%; margin-bottom: 20px}

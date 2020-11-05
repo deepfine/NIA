@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>사업소개 - 디지털 뉴딜</title>
+    <link rel="stylesheet" type="text/css" href="./asset/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./asset/css/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?1">
     <script src="./asset/js/jquery-2.2.4.min.js"></script>
@@ -53,10 +54,10 @@
         <div class="area_tit">
             <h2 class="tit">디지털 뉴딜</h2>
             <p class="tit_sub">Digital New Deal</p>
-            <p class="txt">
-                우리나라의 경제와 사회를 <span class="font_blue">새롭게(New) 변화시키겠다는 약속(Deal)</span>입니다.<br />
-                확고한 사람중심 포용국가 기반 위에 디지털(digital) 뉴딜과 그린(green) 뉴딜 두 개의 축으로 추진하며,<br />
-                2025년까지 총160조원(국비 114.1조원)을 투입하고 총190.1만개 일자리를 만들겠습니다.
+            <p class="txt break">
+                코로나19로 인한 경제위기를 극복하기 위한 <span class="font_blue">D(Digital). N(Network). A(A.I)</span> 기반의 대한민국 회복전략<br>
+                코로나19로 인해 온라인 소비, 원격근무 등 비대면화가 확산되어 “디지털 역량“이 국가 경쟁력의 핵심요소로 부각됨에 따라<br>
+                우리의 강점인 ICT를 전 산업분야에 융합함으로써 경제위기를 극복하고 새로운 일자리를 창출하는 국가 디지털 대전환 프로젝트입니다.
             </p>
         </div>
 
@@ -95,7 +96,7 @@
                     <li class="no1">
                         국민생활과 밀접한 분야 데이터 구축&middot;개방&middot;활용
                         <ul>
-                            <li>공공데이터 개방, 공동 빅데이터 분석 시스템 구축</li>
+                            <li><a href="#" data-toggle="modal" data-target="#modal_1">공공데이터 개방, 공동 빅데이터 분석 시스템 구축</a></li>
                             <li>제조 데이터 수집·분석, AI 전문인력 네트워크 지원</li>
                             <li>소재 연구데이터 플랫폼 구축</li>
                             <li>바이오 빅데이터 조기 구축</li>
@@ -391,5 +392,71 @@
         </div>
     </div>
 </footer>
+
+<!-- 테스트 브라우저 : 크롬, IE11 -->
+<!--
+    테스트 케이스
+    - 팝업이 잘 뜨는가?
+    - 팝업이 잘 닫히는가?
+    - 깨지는 곳이 있는가?
+ -->
+<!-- 화면 실시간 반영 : live-server (https://jeffrey-oh.tistory.com/64) -->
+<div class="modal fade modal_default" id="modal_1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <button type="button" class="btn__close" data-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body">
+                <strong class="tit">공공데이터 개방, 공동 빅데이터 분석 시스템 구축</strong>
+                <strong class="tit2">개요</strong>
+                <ul class="list_dot">
+                    <li>포스트코로나 시대 공공데이터 개방과 품질개선 가속화를 통해 데이터 경제를 선도하고 데이터 분야 청년일자리를 창출</li>
+                    <li>각 기관이 개별 빅데이터시스템을 구축하지 않고도 타 기관 데이터와 연계‧분석할 수 있는 공동 빅데이터 분석 시스템 구축</li>
+                </ul>
+                <strong class="tit2">주요내용</strong>
+                <ul class="list_dot">
+                    <li>
+                        공공데이터 14.2만개 전면개방 및 품질개선 가속화
+                        <ul class="list_dash">
+                            <li>중앙‧지방‧공공기관에 ‘공공데이터 청년 인턴’을 배치하여 공공데이터 개방·품질개선·빅데이터 업무를 지원</li>
+                        </ul>
+                    </li>
+                    <li>범정부적으로 공동활용 가능한 빅데이터 분석 시스템 구축
+                        <ul class="list_dash">
+                            <li>클라우드 기반 구축으로 기관별 빅데이터 분석 인프라를 신속 제공 및 최신 AI분석도구 등 첨단 분석환경을 구축하여 상호 공유</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="table-responsive">
+                    <strong class="tit_table">테이블 제목</strong>
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th scope="col">제목</th>
+                            <th scope="col">제목</th>
+                            <th scope="col">제목</th>
+                            <th scope="col">제목</th>
+                            <th scope="col">제목</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>내용</td>
+                            <td>긴내용 긴내용 긴내용 긴내용 긴내용 긴내용 긴내용 긴내용 긴내용 긴내용 긴내용 긴내용 긴내용 긴내용</td>
+                            <td>줄바꿈 내용<br />줄바꿈 내용<br />줄바꿈 내용<br />줄바꿈 내용</td>
+                            <td>내용</td>
+                            <td>내용</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div><!-- // .table-responsive -->
+
+                <p class="txt">일반 텍스트</p>
+                <p class="txt mt-10">간격이 필요한 경우</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
