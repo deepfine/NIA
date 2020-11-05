@@ -17,9 +17,12 @@ div:focus {outline: none}
 .wrap_center {max-width: 1200px; margin:0 auto; position: relative;}
 ._full_height {height: 100%}
 .font_blue {color: #007dff;}
+.mt-10 {margin-top: 10px}
 
 .animation{opacity: 0;}
 .animated{opacity: 1;}
+
+
 
 #header {position: relative; text-align: center; padding:25px 0;}
 #header h1 {display: inline-block;}
@@ -224,8 +227,9 @@ margin-top: 4px;
     letter-spacing: -0.4px;
     color: #666666;
     padding-left: 10px;
-    background: url('../images/icon_tit_dot.png') no-repeat 0 6px;
+    background: url('../images/icon_tit_dot.png') no-repeat 0 8px;
     background-size: 3px;
+    line-height: 1.4;
 }
 .list_dot > li + li {margin-top: 10px}
 .list_dash > li {
@@ -234,6 +238,16 @@ margin-top: 4px;
     color: #666666;
     padding-left: 14px;
     position: relative;
+    line-height: 1.4;
+}
+.list_dash > li:after {
+    content: "";
+    position: absolute;
+    left:0;
+    top: 8px;
+    width: 7px;
+    height:1px;
+    background: #666666;
 }
 .list_dash > li + li {
     margin-top: 17px;
@@ -292,7 +306,7 @@ margin-top: 4px;
 
 .area_news {border-top: 3px solid #212121;}
 .area_news li {border-bottom: 1px solid #bfbfbf;display: table;width: 100%;}
-.area_news li a {color: #000;font-size: 18px;font-weight: 500;padding:20px 0;width: 100%;line-height: 1.5;text-align: left}
+.area_news li a, .area_news li.not_result {color: #000;font-size: 18px;font-weight: 500;padding:20px 0;width: 100%;line-height: 1.5;text-align: left}
 .area_news li a:hover {color: #007dff;}
 .area_news li > span {
     display: table-cell;
@@ -309,6 +323,7 @@ margin-top: 4px;
     width: 102px;
     font-size: 16px;
 }
+.area_news li.not_result {text-align: center; padding: 60px 0;}
 .area_news li .date {width:120px; font-size: 14px;font-weight: 500;}
 .area_news li .area_file {padding-top: 15px;width: 58px;}
 .area_news li .file {display:inline-block;width: 28px;height: 21px;background: url('../images/icon_file.png') no-repeat 119% 50%;background-size: 22px;}
@@ -356,6 +371,7 @@ margin-top: 4px;
 .area_thumbnail {border-bottom: 1px solid #bfbfbf; border-top: 3px solid #212121; padding-top: 40px}
 .area_thumbnail ul {margin:0 -20px}
 .area_thumbnail li {float:left; width:33.333333%; padding:0 20px 40px; min-height: 311px}
+.area_thumbnail li.not_result {float: none; width: 100%; text-align: center;    font-weight: bold;font-size: 17px;line-height: 1.5;min-height: auto;padding: 20px 0 60px;}
 
 /*.slider {position: relative;width: 100%;margin-bottom: 50px;transition: all 1.0s ease-in-out;}*/
 /*.slider .slide_image {opacity: 1;height: calc(100% - 140px);background-size: cover;background-position: center;}*/
@@ -617,21 +633,23 @@ margin-top: 4px;
 .nav-tabs {font-size: 0;}
 .nav-item {display: inline-block; width: 25%;}
 .nav-item + .nav-item {padding-left: 16px}
-.nav-link {
+.nav-tabs .nav-link {
     display: block;
     font-size: 18px;
     letter-spacing: -0.6px;
     text-align: center;
     color: #000000;
-    border: 1px solid #979797;
+    border: 1px solid #979797!important;
     background-color: #fff;
     height: 55px;
     line-height: 55px;
+    border-radius: 0;
+    padding: 0;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: #fff;
-    background-color: #003b96;
-    border-color: #003b96;
+    background-color: #003b96!important;
+    border-color: #003b96!important;
     font-weight: bold;
 }
 
@@ -803,11 +821,23 @@ margin-top: 4px;
     background-size: 22px;
 }
 
+.modal_default {word-break:keep-all;word-wrap:break-word;}
+.modal_default .btn__close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    background: url('../images/btn_close.png') no-repeat;
+    background-size: 20px;
+}
 .modal_default .modal-content {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.27);
     border: solid 1px #bfbfbf;
     background-color: #fff;
     padding: 35px 30px;
+    border-radius: 0;
+    background-clip: inherit;
 }
 .modal_default strong.tit {
     display: block;
@@ -815,6 +845,7 @@ margin-top: 4px;
     line-height: 1.4;
     letter-spacing: -0.53px;
     color: #000000;
+    padding-right: 30px;
 }
 .modal_default strong.tit2 {
     display: block;
@@ -823,11 +854,12 @@ margin-top: 4px;
     font-weight: bold;
     letter-spacing: -0.4px;
     color: #000;
-    background: url('../images/icon_tit_circle.png') no-repeat;
+    background: url('../images/icon_tit_circle.png') no-repeat 0 1px;
     background-size: 14px;
     margin: 20px 0 10px;
 }
 .modal_default .list_dot {margin-left: 26px}
+.modal_default .list_dot .list_dash {margin: 10px 0 0 0}
 .modal_default p.sub {
     font-size: 14px;
     letter-spacing: -0.37px;
@@ -835,8 +867,10 @@ margin-top: 4px;
     margin-top: 10px;
 }
 /*.modal_default strong.tit*/
+.modal_default .table-responsive {margin-top: 20px}
+.modal_default .tit_table {display:block; padding-bottom: 10px}
 
-
+.table {table-layout: fixed}
 
 @media (min-width: 992px) {
     .modal-lg, .modal-xl {
@@ -910,7 +944,7 @@ margin-top: 4px;
     .box_l.box_intro .txt {font-size: 20px;}
     .slider_long [class*="bg"] {min-height: auto;}
     .nav-item + .nav-item {padding-left: 10px}
-    .nav-item {width: 50%; margin-bottom: 10px}
+    .nav-item {width: 50%; margin-bottom: 10px!important;}
     .nav-item.nav-item-03 {padding-left:0}
     .list_num > li {font-size: 16px; float:none; width: 100%}
     .list_num > li li {width: 100%}
