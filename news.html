@@ -9,15 +9,18 @@
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?1">
     <script src="./asset/js/jquery-2.2.4.min.js"></script>
     <script src="./asset/js/ui.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2LGJS4L4Q6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-2LGJS4L4Q6');
+    </script>
 </head>
 <body>
 <header id="header">
     <div class="wrap_center area_gnb">
-        <div class="area_relate">
-            <a href="https://www.msit.go.kr/" target="_blank">
-                <img src="./asset/images/img_logo_msit.png" class="msit" alt="과학기술정보통신부">
-            </a>
-        </div>
         <h1>
             <a href=""><!-- [D] 홈으로 -->
                 <img src="./asset/images/img_logo_new.png" alt="디지털 뉴딜 - 대한민국 대전환">
@@ -27,15 +30,21 @@
         <nav id="nav">
             <button type="button" class="close" aria-label="닫기"></button>
             <a href="" class="logo"><!-- [D] 홈으로 -->
-                <img src="./asset/images/img_logo.png" width="50" alt="디지털 뉴딜 - 대한민국 대전환">
+                <img src="./asset/images/img_logo_new.png" width="50" alt="디지털 뉴딜">
             </a>
             <a href="" class="link">사업소개</a>
+            <a href="" class="link">대통령 국민 소통</a>
             <a href="" class="link _active">알림마당</a><!-- [D] 해당 페이지에서 _active 클래스 추가 -->
             <a href="" class="link">홍보자료</a>
             <div class="relate">
                 <a href="https://www.msit.go.kr/" target="_blank"><img src="./asset/images/img_logo_msit.png" class="msit" width="110" alt="과학기술정보통신부"></a>
             </div>
         </nav>
+        <div class="area_relate">
+            <a href="https://www.msit.go.kr/" target="_blank">
+                <img src="./asset/images/img_logo_msit.png" class="msit" alt="과학기술정보통신부">
+            </a>
+        </div>
     </div>
 </header>
 <!-- // #header -->
