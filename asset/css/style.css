@@ -25,9 +25,9 @@ div:focus {outline: none}
 
 
 
-#header {position: relative; padding:25px 0;}
+#header {position: relative; padding:42px 0;}
 #header h1 {display: inline-block;}
-#header h1 img {width: 110px;}
+#header h1 img {width: 150px;}
 #header .btn_drawer {z-index:100; display: none;position: absolute;right: 0;bottom: 17px;width: 24px;height: 17px;background: url('../images/icon_drawer.png') no-repeat;background-size: cover;}
 #header .area_relate {position: absolute; right:0; top:50%; transform: translateY(-50%);}
 #header .area_relate .msit {width: 212px;}
@@ -920,6 +920,7 @@ margin-top: 4px;
 
 @media screen and (max-width: 980px) {
     #nav {left: 140px}
+    #header h1 img {width: 110px}
 }
 
 @media screen and (max-width: 900px) {
@@ -942,7 +943,7 @@ margin-top: 4px;
     #header {padding:0; text-align: left;}
     #header .area_relate {position: relative;padding:15px 0 15px 20px;background-color: #f5f5f5; left:auto; top:auto; right: auto; transform: none;}
     #header h1 {margin:10px 0}
-    #header h1 img {width: 50px;}
+    #header h1 img {width: 70px;}
     #header .btn_drawer {display: block;}
     #header .area_relate .msit {width: 120px;}
     #header .area_relate .nia {width: 100px;}
