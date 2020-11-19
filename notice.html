@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>홍보자료 상세 - 디지털 뉴딜</title>
+    <title>공지사항 - 디지털 뉴딜</title>
     <link rel="stylesheet" type="text/css" href="./asset/css/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?3">
     <script src="./asset/js/jquery-2.2.4.min.js"></script>
@@ -34,8 +34,8 @@
             </a>
             <a href="" class="link">사업소개</a>
             <a href="" class="link">대통령 국민 소통</a>
-            <a href="" class="link">알림마당</a>
-            <a href="" class="link _active">홍보자료</a><!-- [D] 해당 페이지에서 _active 클래스 추가 -->
+            <a href="" class="link _active">알림마당</a><!-- [D] 해당 페이지에서 _active 클래스 추가 -->
+            <a href="" class="link">홍보자료</a>
             <div class="relate">
                 <a href="https://www.msit.go.kr/" target="_blank"><img src="./asset/images/img_logo_msit.png" class="msit" width="110" alt="과학기술정보통신부"></a>
             </div>
@@ -53,63 +53,73 @@
     <div class="location">
         <div class="wrap_center">
             <a href="javascript:;" class="home" aria-label="Home"></a><!-- [D] 메인페이지로 이동 -->
-            <span class="text">홍보자료</span>
+            <span class="text">알림마당</span>
         </div>
     </div>
     <div class="wrap_center">
-        <h2 class="tit_content">홍보자료</h2>
-
-        <ul class="nav nav-tabs nav-space2" role="tablist">
+        <h2 class="tit_content tit_bottom">알림마당</h2>
+        <ul class="nav nav-tabs nav-space" role="tablist">
             <li class="nav-item nav-half">
-                <a class="nav-link active" href="" role="tab" aria-selected="true">동영상</a>
+                <a class="nav-link" href="" role="tab" aria-selected="false">보도자료</a>
             </li>
             <li class="nav-item nav-half">
-                <a class="nav-link" href="" role="tab" aria-selected="false">BI 소개</a>
+                <a class="nav-link active" href="" role="tab" aria-selected="true">공지사항</a>
             </li>
         </ul>
-
-        <div class="area_detail">
-            <div class="area_tit">
-                <h3 class="tit_detail">디지털 뉴딜로 일자리 90만개 창출!!</h3>
-            </div>
-            <div class="area_content">
-                <!-- [D] 유투브만 있는 형태, 8월 버전 -->
-                <div class="area_youtube">
-                    <iframe width="320" height="180" src="https://www.youtube.com/embed/TJen7-bt-Ao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <!-- //유투브만 있는 형태 -->
-
-                <!-- [D] 이미지 + 텍스트 형태, 9월 버전 -->
-                <div class="area_image" style="display: none">
-                    <img src="./asset/images/img_dummy.jpg" class="img" alt="">
-                    <p>텍스트입니다.</p>
-                    <p>텍스트입니다.</p>
-                </div>
-                <!-- //이미지 + 텍스트 형태 -->
-            </div>
+        <div class="area_total">
+            <p>
+                총 <span class="num">356</span>건
+            </p>
         </div>
-        <!-- // .area_detail -->
+        <div class="area_search">
+            <input type="text" class="input_default"><!-- [D] 인풋에서 입력 후 엔터 시에도 검색 기능 -->
+            <button type="button" class="btn_default_blue">검색</button>
+        </div>
 
-        <div class="area_prevnext">
+        <div class="area_news clearfix">
             <ul>
                 <li>
-                    <a><!-- [D] 이전 글, 다음 글에서 선택이 안될 경우 href속성 삭제 -->
-                        <span>이전 글</span>
-                        이전 글이 없습니다.
-                    </a>
+                    <span class="num">7</span>
+                    <span class="title">
+                        <a href="">
+                            디지털 뉴딜로 일자리 90만개 창출!! 디지털 뉴딜로 일자리 90만개 창출!! 디지털 뉴딜로 일자리 90만개 창출!! 디지털 뉴딜로 일자리 90만개 창출!!
+                        </a>
+                    </span>
+                    <span class="area_file"><!-- [D] 첨부파일이 있는 경우 -->
+                        <i aria-label="첨부파일 있음" class="file"></i>
+                    </span>
+                    <span class="date">2020.08.08</span>
                 </li>
                 <li>
-                    <a href="">
-                        <span class="next">다음 글</span>
-                        디지털 뉴딜로 일자리 90만개 창출!!
-                    </a>
+                    <span class="num">6</span>
+                    <span class="title">
+                        <a href="">
+                            디지털 뉴딜로 일자리 90만개 창출!! 디지털 뉴딜로 일자리 90만개 창출!!
+                        </a>
+                    </span>
+                    <span class="area_file">
+                        <i aria-label="첨부파일 있음" class="file"></i>
+                    </span>
+                    <span class="date">2020.08.08</span>
+                </li>
+                <li class="not_result"><!-- [D] 조회된 게시물이 없는 경우 -->
+                    <p>조회된 게시물이 없습니다.</p>
                 </li>
             </ul>
         </div>
+        <!-- // .area_thumbnail -->
 
-        <div id="area_btn">
-            <a href="" class="btn_m_blue">목록</a>
-        </div>
+        <nav class="area_pagination">
+            <ul>
+                <li><a href="#" title="처음으로" class="btn_first"></a></li>
+                <li><a href="#" title="이전" class="btn_prev"></a></li>
+                <li><a href="#" class="current">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#" title="다음" class="btn_next"></a></li>
+                <li><a href="#" title="마지막으로" class="btn_last"></a></li>
+            </ul>
+        </nav>
     </div>
 </div>
 <!-- // #content -->
@@ -134,11 +144,5 @@
         </div>
     </div>
 </footer>
-
-<script>
-    $(function() {
-        $('.area_content a[target="_self"]').addClass('link').attr('target','_blank');
-    });
-</script>
 </body>
 </html>
