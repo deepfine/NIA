@@ -36,7 +36,7 @@ div:focus {outline: none}
 #header .area_relate a {vertical-align: middle}
 #header .area_relate a + a {margin-left: 15px}
 #nav {position: absolute; left:347px; top:50%; transform: translateY(-50%);}
-#nav .link {display: inline-block;font-size: 20px;color: #212121;}
+#nav .link {display: inline-block;font-size: 20px;font-weight:bold;color: #212121;}
 #nav .link:hover, #nav .link._active {color: #007dff}
 #nav .link._active {border-bottom-color: #007dff;}
 #nav .link + .link {margin-left: 43px}
