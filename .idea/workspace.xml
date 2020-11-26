@@ -1,31 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d4c202-11c7-4ea0-b5e1-90eed5e869b3" name="Default Changelist" comment="" />
+    <list default="true" id="41d4c202-11c7-4ea0-b5e1-90eed5e869b3" name="Default Changelist" comment="Complete : (메)">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="4ec1c170-aa60-4b67-a9c4-568fdd1ba851" />
+  </component>
   <component name="ProjectId" id="1fwG96uaDpRSB5b1hTz5PXeHBIA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/asset/js" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/asset/js" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/asset/css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/asset/css" />
       <recent name="$PROJECT_DIR$/asset/js" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
     <supportedVersion>125</supportedVersion>
@@ -38,21 +71,296 @@
       <option name="presentableId" value="Default" />
       <updated>1597121586260</updated>
       <workItem from="1597121590134" duration="33431000" />
-      <workItem from="1597974761752" duration="26756000" />
+      <workItem from="1597974761752" duration="61144000" />
+      <workItem from="1598495130207" duration="424000" />
+      <workItem from="1598495783346" duration="30000" />
+      <workItem from="1598506266438" duration="10993000" />
+      <workItem from="1598873642444" duration="14000" />
+      <workItem from="1599469024042" duration="1217000" />
+      <workItem from="1599549108224" duration="1570000" />
+      <workItem from="1599642029767" duration="12000" />
+      <workItem from="1599725965441" duration="14607000" />
+      <workItem from="1600053157263" duration="1342000" />
+      <workItem from="1600073691506" duration="900000" />
+      <workItem from="1600255665164" duration="1316000" />
+      <workItem from="1600304782266" duration="9000" />
+      <workItem from="1600410878070" duration="2296000" />
+      <workItem from="1600415047591" duration="6952000" />
+      <workItem from="1600669739634" duration="576000" />
+      <workItem from="1601115985672" duration="547000" />
+      <workItem from="1601276238663" duration="8000" />
+      <workItem from="1602736722313" duration="185000" />
+      <workItem from="1602740353205" duration="550000" />
+      <workItem from="1602762952438" duration="415000" />
+      <workItem from="1603085294440" duration="18362000" />
+      <workItem from="1603352375426" duration="3533000" />
+      <workItem from="1603679329944" duration="20641000" />
+      <workItem from="1603773270967" duration="18581000" />
+      <workItem from="1604477553713" duration="15742000" />
+      <workItem from="1604971511482" duration="12953000" />
+      <workItem from="1605069474125" duration="20575000" />
+      <workItem from="1605697304898" duration="18371000" />
+      <workItem from="1606282384776" duration="1167000" />
+      <workItem from="1606295012374" duration="2764000" />
     </task>
+    <task id="LOCAL-00001" summary="Complete : 상세화면 조회수 삭제">
+      <created>1598343552456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598343552456</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Complete : 메인화면">
+      <created>1598435358165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598435358167</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Complete : 메인상단 비주얼 교체, 메뉴명(뉴스&amp;소식 =&gt; 알림마당), 알림마당 상세 샘플, 헤더 로고 순서변경 (정보화진흥원 &lt;=&gt; 과학기술정보통신부), 찾을수 없는 페이지 추가,">
+      <created>1598579520766</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598579520769</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Complete : 현업수정 요청사항 (내용은 아래 참고)&#10;- (헤더) 로고 순서변경&#10;- (헤더) 사업소개 =&gt; 국민참여&#10;- (메인) 첫 진입 시 100%로 차지하게&#10;- (메인) 배너영역 =&gt; 홍보자료영역으로 변경&#10;- (메인) 연관기관 좌우버튼 형식으로&#10;- (메인) 디지털 뉴딜 주요내용 일러스트 수정 및 자동 슬라이드 &#10;- (알림마당) 게시판 형태 번호,제목,첨부파일,게재일자 로&#10;- (홍보자료) 영상 및 제목 추가">
+      <created>1600651889378</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600651889381</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Complete : (header) 국민참여 =&gt; 사업소개, (메인) 넘버링 수정 &amp; 기재부 배너 추가, 사업소개 페이지 추가">
+      <created>1603194798164</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603194798164</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Complete : 정보화진흥원 로고 삭제">
+      <created>1603241314365</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603241314365</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Complete : (홍보자료) 일부해상도 리스트 떨어짐 수정">
+      <created>1603242006631</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603242006631</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Complete : (메인) 비주얼 슬라이드 고정높이로 원복, (사업소개) 카드 가로 형태로 &amp; 폰트 전체적으로 크기 UP, (header) 로고 및 폰트 키움">
+      <created>1603248986551</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603248986551</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Complete : (메인) 동영상 교체, (홍보자료) 동영상 3개 추가">
+      <created>1603259829704</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603259829704</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Complete : (메인) modal 추가, 하단 및 푸터영역 수정(1022요청사항), (사업소개) 레이아웃 및 하위목록 추가(1022요청사항)">
+      <created>1603712933927</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603712933927</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Complete : 로고 &amp; 파비콘 변경">
+      <created>1603855714221</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603855714221</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Complete : 알림마당, 홍보자료 링크 있을 시 새창, addClass 기능 추가">
+      <created>1603867100742</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603867100743</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Complete : 파비콘(.ico) 추가, 메인 팝업 보완, 푸터 일부 링크 삭제">
+      <created>1603949318459</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603949318460</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fixed : 잘못 수정된 css 수정">
+      <created>1603959695787</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603959695788</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Complete : (사업소개) 설명문구 및 리스트 레이아웃 변경">
+      <created>1604314522221</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604314522222</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Complete : (알림마당, 홍보자료) 검색 bar 추가">
+      <created>1604488244303</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604488244303</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Complete : 검색 결과 없는 케이스 추가">
+      <created>1604541688827</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604541688827</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Complete : (사업소개) 상단 문구 변경 (HTML은 문구부분만 반영)">
+      <created>1604562782188</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604562782188</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Complete : (사업소개) 각 modal화, 대통령 국민 소통 추가, GNB등 수정, GA코드 추가">
+      <created>1605079519028</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1605079519028</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Complete : (메인) 배너교체, 로고 교체">
+      <created>1605578572441</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1605578572441</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Complete : 파비콘 변경">
+      <created>1605580045765</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1605580045765</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Complete : (메인) 최상단 배너 및 링크 교체">
+      <created>1605691928698</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1605691928699</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Complete : (22일 반영) 로고, 링크 사이즈 조절, 사업소개 아코디언화, (메인) 비주얼 교체, 알림마당&amp;홍보자료 Tab화">
+      <created>1605767292845</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1605767292845</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Complete : (메인) 배너이미지 교체, 오늘 하루 안보기 =&gt; 일주일간 안보기">
+      <created>1605785722538</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1605785722538</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Fixed : 게시판 목록, 상세 탭 위치 일치화">
+      <created>1606101187358</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1606101187358</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Fixed : 누락된 페이지 타이틀 변경 수정">
+      <created>1606111779887</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1606111779888</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Complete : GNB 링크 bold 처리">
+      <created>1606113412760</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1606113412760</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Complete : (메인) 배너 및 링크 교체, 알림마당 박스 애니메이션 효과 삭제">
+      <created>1606367813617</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1606367813617</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Complete : 현업수정 요청사항 (내용은 아래 참고)&#10;- (헤더) 로고 순서변경&#10;- (헤더) 사업소개 =&gt; 국민참여&#10;- (메인) 첫 진입 시 100%로 차지하게&#10;- (메인) 배너영역 =&gt; 홍보자료영역으로 변경&#10;- (메인) 연관기관 좌우버튼 형식으로&#10;- (메인) 디지털 뉴딜 주요내용 일러스트 수정 및 자동 슬라이드 &#10;- (알림마당) 게시판 형태 번호,제목,첨부파일,게재일자 로&#10;- (홍보자료) 영상 및 제목 추가" />
+    <MESSAGE value="Complete : (header) 국민참여 =&gt; 사업소개, (메인) 넘버링 수정 &amp; 기재부 배너 추가, 사업소개 페이지 추가" />
+    <MESSAGE value="Complete : 정보화진흥원 로고 삭제" />
+    <MESSAGE value="Complete : (홍보자료) 일부해상도 리스트 떨어짐 수정" />
+    <MESSAGE value="Complete : (메인) 비주얼 슬라이드 고정높이로 원복, (사업소개) 카드 가로 형태로 &amp; 폰트 전체적으로 크기 UP, (header) 로고 및 폰트 키움" />
+    <MESSAGE value="Complete : (메인) 동영상 교체, (홍보자료) 동영상 3개 추가" />
+    <MESSAGE value="Complete : (메인) modal 추가, 하단 및 푸터영역 수정(1022요청사항), (사업소개) 레이아웃 및 하위목록 추가(1022요청사항)" />
+    <MESSAGE value="Complete : 로고 &amp; 파비콘 변경" />
+    <MESSAGE value="Complete : 알림마당, 홍보자료 링크 있을 시 새창, addClass 기능 추가" />
+    <MESSAGE value="Complete : 파비콘(.ico) 추가, 메인 팝업 보완, 푸터 일부 링크 삭제" />
+    <MESSAGE value="Fixed : 잘못 수정된 css 수정" />
+    <MESSAGE value="Complete : (사업소개) 설명문구 및 리스트 레이아웃 변경" />
+    <MESSAGE value="Complete : (알림마당, 홍보자료) 검색 bar 추가" />
+    <MESSAGE value="Complete : 검색 결과 없는 케이스 추가" />
+    <MESSAGE value="Complete : (사업소개) 상단 문구 변경 (HTML은 문구부분만 반영)" />
+    <MESSAGE value="Complete : (사업소개) 각 modal화, 대통령 국민 소통 추가, GNB등 수정, GA코드 추가" />
+    <MESSAGE value="Complete : (메인) 배너교체, 로고 교체" />
+    <MESSAGE value="Complete : 파비콘 변경" />
+    <MESSAGE value="Complete : (메인) 최상단 배너 및 링크 교체" />
+    <MESSAGE value="Complete : (22일 반영) 로고, 링크 사이즈 조절, 사업소개 아코디언화, (메인) 비주얼 교체, 알림마당&amp;홍보자료 Tab화" />
+    <MESSAGE value="Complete : (메인) 배너이미지 교체, 오늘 하루 안보기 =&gt; 일주일간 안보기" />
+    <MESSAGE value="Fixed : 게시판 목록, 상세 탭 위치 일치화" />
+    <MESSAGE value="Fixed : 누락된 페이지 타이틀 변경 수정" />
+    <MESSAGE value="Complete : GNB 링크 bold 처리" />
+    <MESSAGE value="Complete : (메인) 배너 및 링크 교체, 알림마당 박스 애니메이션 효과 삭제" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete : (메인) 배너 및 링크 교체, 알림마당 박스 애니메이션 효과 삭제" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="607" y="245" width="834" height="616" key="find.popup" timestamp="1597285853694">
+    <state x="0" y="23" width="2048" height="1129" key="CommitChangelistDialog2" timestamp="1606367813353">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state x="607" y="245" width="834" height="616" key="find.popup/2048.208.2048.1060/0.23.2048.1129@0.23.2048.1129" timestamp="1597285853694" />
-    <state x="605" y="51" key="search.everywhere.popup" timestamp="1597727175483">
-      <screen x="0" y="23" width="2048" height="1060" />
+    <state x="0" y="23" width="2048" height="1129" key="CommitChangelistDialog2/2048.208.2048.1129/0.23.2048.1129@0.23.2048.1129" timestamp="1606367813353" />
+    <state x="205" y="125" key="DiffContextDialog" timestamp="1605785698074">
+      <screen x="0" y="23" width="2048" height="1129" />
     </state>
-    <state x="605" y="51" key="search.everywhere.popup/2048.208.2048.1129/0.23.2048.1060@0.23.2048.1060" timestamp="1597727175483" />
+    <state x="205" y="125" key="DiffContextDialog/2048.208.2048.1129/0.23.2048.1129@0.23.2048.1129" timestamp="1605785698074" />
+    <state x="838" y="501" key="Github.Dialog.Accounts.Choose" timestamp="1605079535678">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state x="838" y="501" key="Github.Dialog.Accounts.Choose/2048.208.2048.1129/0.23.2048.1129@0.23.2048.1129" timestamp="1605079535678" />
+    <state x="384" y="67" key="SettingsEditor" timestamp="1605077742147">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state x="384" y="67" key="SettingsEditor/2048.208.2048.1129/0.23.2048.1129@0.23.2048.1129" timestamp="1605077742147" />
+    <state x="524" y="230" key="Vcs.Push.Dialog.v2" timestamp="1606367826151">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state x="524" y="230" key="Vcs.Push.Dialog.v2/2048.208.2048.1129/0.23.2048.1129@0.23.2048.1129" timestamp="1606367826150" />
+    <state x="627" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1600304788526">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state x="627" y="381" key="com.intellij.ide.util.TipDialog/2048.208.2048.1129/0.23.2048.1129@0.23.2048.1129" timestamp="1600304788526" />
+    <state x="607" y="245" width="834" height="764" key="find.popup" timestamp="1605580014595">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state x="607" y="245" width="834" height="764" key="find.popup/2048.208.2048.1129/0.23.2048.1129@0.23.2048.1129" timestamp="1605580014595" />
   </component>
 </project>
