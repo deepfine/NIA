@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -29,18 +29,23 @@
     </script>
 </head>
 <body>
+<div id="skipnavigation">
+    <ul>
+        <li><a href="#content">본문 바로가기</a></li>
+    </ul>
+</div>
 <header id="header">
     <div class="wrap_center area_gnb">
         <h1>
             <a href=""><!-- [D] 홈으로 -->
-                <img src="./asset/images/img_logo_v202012.png" alt="한국판뉴딜 디지털뉴딜">
+                <img src="./asset/images/img_logo_v202012.png" alt="한국판뉴딜 디지털뉴딜 로고">
             </a>
         </h1>
         <button type="button" class="btn_drawer" aria-label="메뉴"></button>
         <nav id="nav">
             <button type="button" class="close" aria-label="닫기"></button>
             <a href="" class="logo"><!-- [D] 홈으로 -->
-                <img src="./asset/images/img_logo_v202012.png" width="70" alt="한국판뉴딜 디지털뉴딜">
+                <img src="./asset/images/img_logo_v202012.png" width="70" alt="한국판뉴딜 디지털뉴딜 로고">
             </a>
             <a href="" class="link">사업소개</a>
             <a href="" class="link">대통령 국민 소통</a>
@@ -59,7 +64,7 @@
 </header>
 <!-- // #header -->
 
-<div id="content" class="main">
+<div id="content" class="main" tabindex="-1">
     <div class="slider slider_visual visual_slider">
         <div>
             <div class="slide_image slide_01">
@@ -115,7 +120,7 @@
                 <div class="col_4">
                     <article class="box_m animation" data-animation="fadeInUp" data-animation-delay="0s">
                         <a class="link_youtube clearfix" href="https://youtu.be/oJwEFhbw2QU">
-                            <img src="https://img.youtube.com/vi/oJwEFhbw2QU/mqdefault.jpg" class="img_video_thumb" alt="">
+                            <img src="https://img.youtube.com/vi/oJwEFhbw2QU/mqdefault.jpg" class="img_video_thumb" alt="최기영 과기정통부 장관에게 듣는 디지털 뉴딜 동영상 보기">
                         </a>
                     </article>
                 </div>
@@ -123,7 +128,7 @@
                 <div class="col_4">
                     <article class="box_m animation" data-animation="fadeInUp" data-animation-delay="0.2s">
                         <a class="link" href="http://www.moef.go.kr/mp/nd/newDeal.do" target="_blank">
-                            <img src="./asset/images/img_banner_newdeal.jpg" class="img_video_thumb" alt="">
+                            <img src="./asset/images/img_banner_newdeal.jpg" class="img_video_thumb" alt="한눈에 보는 경제 한국판뉴딜 페이지">
                         </a>
                     </article>
                 </div>
@@ -132,22 +137,22 @@
                     <article class="box_m border animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                         <div class="control">
                             <div class="slide-dot"></div>
-                            <button type="button" class="slick-pause" aria-label="정지"></button>
+                            <button type="button" class="slick-pause" aria-label="정지"><span class="blind">슬라이드 정지</span></button>
                         </div>
                         <div class="slider slider_normal">
                             <div>
-                                <a href="https://www.msit.go.kr/bbs/view.do?sCode=user&mId=117&mPid=111&pageIndex=&bbsSeqNo=88&nttSeqNo=3175356&searchOpt=ALL&searchTxt=" target="_blank">
-                                    <img src="./asset/images/img_promotion6.png" class="img_promotion_thumb" alt="">
+                                <a href="https://www.msit.go.kr/bbs/view.do?sCode=user&mId=117&mPid=111&pageIndex=&bbsSeqNo=88&nttSeqNo=3175356&searchOpt=ALL&searchTxt=" target="_blank" title="과학기술정보통신부 카드뉴스 바로가기 - 새창">
+                                    <img src="./asset/images/img_promotion6.png" class="img_promotion_thumb" alt="과학기술, 국가 유산을 남기다 - 과학기술정보통신부">
                                 </a>
                             </div>
                             <div>
-                                <a href="http://ncov.mohw.go.kr/" target="_blank">
-                                    <img src="./asset/images/img_promotion.jpg" class="img_promotion_thumb" alt="">
+                                <a href="http://ncov.mohw.go.kr/" target="_blank" title="코로나바이러스감염증-19(COVID-19) 현황 바로보기 - 새창">
+                                    <img src="./asset/images/img_promotion.jpg" class="img_promotion_thumb" alt="새로운 일상 생활 속 거리 두기">
                                 </a>
                             </div>
                             <div>
-                                <a href="https://www.msit.go.kr/bbs/view.do?sCode=user&mId=117&mPid=111&pageIndex=&bbsSeqNo=88&nttSeqNo=3083313&searchOpt=ALL&searchTxt=" target="_blank">
-                                    <img src="./asset/images/img_promotion4.jpg" class="img_promotion_thumb" alt="">
+                                <a href="https://www.msit.go.kr/bbs/view.do?sCode=user&mId=117&mPid=111&pageIndex=&bbsSeqNo=88&nttSeqNo=3083313&searchOpt=ALL&searchTxt=" target="_blank" title="과학기술정보통신부 카드뉴스 바로가기 - 새창">
+                                    <img src="./asset/images/img_promotion4.jpg" class="img_promotion_thumb" alt="2045 원하는 미래를 그리고 과학기술로 실현하는 대한민국">
                                 </a>
                             </div>
                         </div>
@@ -159,7 +164,7 @@
                 <article class="box_l">
                     <div class="control">
                         <div class="slide-dot"></div>
-                        <button type="button" class="slick-pause" aria-label="정지"></button>
+                        <button type="button" class="slick-pause" aria-label="정지"><span class="blind">슬라이드 정지</span></button>
                     </div>
                     <div class="slider slider_fade slider_arrow slider_l">
 
@@ -241,7 +246,7 @@
                             <p class="date">2020.10.13</p>
                         </li>
                     </ul>
-                    <a href="" class="link_more" aria-label="더보기"></a><!-- [D] 알림마당 페이지로 이동 -->
+                    <a href="" class="link_more" aria-label="더보기" title="알림마당"><span class="blind">더보기</span></a><!-- [D] 알림마당 페이지로 이동 -->
                 </article>
                 <article class="box_m">
                     <div class="slider slider_s slider_auto" id="slider_related">
@@ -265,7 +270,7 @@
 
 <footer id="footer">
     <div class="wrap_center">
-        <button type="button" class="btn_top" aria-label="TOP"></button>
+        <button type="button" class="btn_top" aria-label="TOP"><span class="blind">맨위로 이동</span></button>
         <div class="area_list">
             <ul>
                 <li><a href="https://www.msit.go.kr/web/msipContents/contents.do?mId=MTA3Mw==" target="_blank">이용안내</a></li>
@@ -348,9 +353,11 @@
             if ($(this).attr('aria-label') == '정지'){
                 $(this).parents('.control').next('.slider').slick('slickPause')
                 $(this).attr("aria-label","재생");
+                $(this).find('span').text("슬라이드 재생");
             } else {
                 $(this).parents('.control').next('.slider').slick('slickPlay');
                 $(this).attr("aria-label","정지");
+                $(this).find('span').text("슬라이드 정지");
             }
         });
 

@@ -22,18 +22,23 @@
     </script>
 </head>
 <body>
+<div id="skipnavigation">
+    <ul>
+        <li><a href="#content">본문 바로가기</a></li>
+    </ul>
+</div>
 <header id="header">
     <div class="wrap_center area_gnb">
         <h1>
             <a href=""><!-- [D] 홈으로 -->
-                <img src="./asset/images/img_logo_v202012.png" alt="한국판뉴딜 디지털뉴딜">
+                <img src="./asset/images/img_logo_v202012.png" alt="한국판뉴딜 디지털뉴딜 로고">
             </a>
         </h1>
         <button type="button" class="btn_drawer" aria-label="메뉴"></button>
         <nav id="nav">
             <button type="button" class="close" aria-label="닫기"></button>
             <a href="" class="logo"><!-- [D] 홈으로 -->
-                <img src="./asset/images/img_logo_v202012.png" width="70" alt="한국판뉴딜 디지털뉴딜">
+                <img src="./asset/images/img_logo_v202012.png" width="70" alt="한국판뉴딜 디지털뉴딜 로고">
             </a>
             <a href="" class="link _active">사업소개</a><!-- [D] 해당 페이지에서 _active 클래스 추가 -->
             <a href="" class="link">대통령 국민 소통</a>
@@ -52,10 +57,10 @@
 </header>
 <!-- // #header -->
 
-<div id="content">
+<div id="content" tabindex="-1">
     <div class="location">
         <div class="wrap_center">
-            <a href="javascript:;" class="home" aria-label="home"></a><!-- [D] 메인페이지로 이동 -->
+            <a href="javascript:;" class="home" aria-label="home"><span class="blind">홈</span></a><!-- [D] 메인페이지로 이동 -->
             <span class="text">사업소개</span>
         </div>
     </div>
@@ -72,7 +77,7 @@
 
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item nav-item-01">
-                <a class="nav-link active" data-toggle="tab" href="#tab_1" role="tab" aria-selected="true">D.N.A 생태계 강화</a>
+                <a class="nav-link active" data-toggle="tab" href="#tab_1" role="tab" aria-selected="true">D.N.A 생태계 강화<span class="blind">선택됨</span></a>
             </li>
             <li class="nav-item nav-item-02">
                 <a class="nav-link" data-toggle="tab" href="#tab_2" role="tab" aria-selected="false">교육 인프라 디지털화</a>
@@ -458,7 +463,7 @@
 
 <footer id="footer">
     <div class="wrap_center">
-        <button type="button" class="btn_top" aria-label="TOP"></button>
+        <button type="button" class="btn_top" aria-label="TOP"><span class="blind">맨위로 이동</span></button>
         <div class="area_list">
             <ul>
                 <li><a href="https://www.msit.go.kr/web/msipContents/contents.do?mId=MTA3Mw==" target="_blank">이용안내</a></li>
@@ -1429,7 +1434,6 @@
 
                 <div class="table-responsive">
                     <table class="table table-bordered">
-
                         <tbody>
                         <tr>
                             <td>❶ (지능형 항해시스템) 충돌·사고방지, 상황인식, 최적항로 의사결정 등 자율운항 시스템 개발</td>
@@ -2195,6 +2199,7 @@
                 <div class="table-responsive">
                     <strong class="tit_table"></strong>
                     <table class="table table-bordered">
+                        <caption>비대면 제품·서비스, 디지털 인프라 분야 우대보증  –  구분, Track 1(핵심), Track 2(일반)으로 구성</caption>
                         <thead>
                         <tr>
                             <th scope="col">구분</th>
@@ -2285,6 +2290,7 @@
                 <div class="table-responsive">
                     <strong class="tit_table">6G R&D 6대 중점분야</strong>
                     <table class="table table-bordered">
+                        <caption>6G R&D 6대 중점분야 구분에 따른 핵심기술  –  구분, 초성능, 초대역, 초정밀, 초공간, 초지능, 초신뢰로 구성</caption>
                         <thead>
                         <tr>
                             <th scope="col">구분 </th>
@@ -2798,6 +2804,7 @@
                 <div class="table-responsive">
                     <strong class="tit_table">‘21년 7대 확산 과제</strong>
                     <table class="table table-bordered">
+                        <caption>21년 7대 확산 과제 각 분야에 따른 주요 내용 - 분야, 주요 내용으로 구성</caption>
                         <thead>
                         <tr>
                             <th scope="col">분야</th>
@@ -2949,6 +2956,7 @@
                 <strong class="tit2">주요내용</strong>
                 <div class="table-responsive">
                     <table class="table table-bordered">
+                        <caption>5개 분야별 클라우드 서비스 각 구분에 따른 주요내용 - 구분, 주요내용으로 구성</caption>
                         <colgroup>
                             <col style="width: 25%">
                             <col>
@@ -3123,6 +3131,7 @@
                 <div class="table-responsive">
 
                     <table class="table table-bordered">
+                        <caption>영세 중소기업 지원대상 및 지원내용 - 구분, 정보보호 관심·투자기업(ICT중소기업), 영세 중소기업으로 구성</caption>
                         <colgroup>
                             <col style="width:20%">
                             <col />
@@ -3354,6 +3363,7 @@
                 <div class="table-responsive">
 
                     <table class="table table-bordered">
+                        <caption>3대 영역 8개 진단항목 중 필요로 하는 항목 - 진단영역, 진단항목, 주요내용으로 구성</caption>
                         <colgroup>
                             <col style="width: 26%">
                             <col style="width: 20%">
@@ -3462,6 +3472,7 @@
 
                     <strong class="tit_table mt-10">비대면 산업 보안내재화 시범사업(예시)</strong>
                     <table class="table table-bordered">
+                        <caption>비대면 산업 보안내재화 시범사업(예시) - 구분, 비대면 진료, 비대면 교육, 비대면 근무, 상거래로 구성</caption>
                         <thead>
                         <tr>
                             <th scope="col">구분</th>
@@ -4337,6 +4348,7 @@
                     <li>수행과제 현황
                         <div class="table-responsive">
                             <table class="table table-bordered">
+                                <caption>돌봄로봇 4종 개발 수행과제 현황 - 과제명, 사업기간, 개발내용으로 구성</caption>
                                 <thead>
                                 <tr>
                                     <th scope="col">과제명</th>
@@ -4585,6 +4597,7 @@
                 </ul>
                 <div class="table-responsive">
                     <table class="table table-bordered">
+                        <caption>디지털 워크 지원 분야에 따른 주요 내용 - 지원 분양, 주요 내용으로 구성</caption>
                         <thead>
                         <tr>
                             <th scope="col">지원 분야</th>
@@ -4733,6 +4746,7 @@
                 <div class="table-responsive">
                     <strong class="tit_table">* 연도별 C-ITS 구축계획 (단위 : km)</strong>
                     <table class="table table-bordered">
+                        <caption>연도별 C-ITS 구축계획 - 구분, 계, 수도권, 광역권, 주요간선, 잔여구간으로 구성</caption>
                         <thead>
                         <tr>
                             <th scope="col" rowspan="2">구 분</th>
@@ -4887,6 +4901,7 @@
                 <div class="table-responsive">
                     <strong class="tit_table">도서지역 스마트 어항 유지관리체계 구축</strong>
                     <table class="table table-bordered">
+                        <caption>도서지역 스마트 어항 현재, 구축 후 설명 - As-is, To-be로 구성</caption>
                         <thead>
                         <tr>
                             <th scope="col">As-Is</th>
@@ -5740,16 +5755,16 @@
                 </ul>
                 <div class="table-responsive">
                     <table class="table table-bordered">
+                        <caption>배송 및 인프라 첨단화, 물류 운영 디지털화 주요 내용 - 구분, 주요 기술, 기대효과로 구성</caption>
                         <thead>
                         <tr>
-                            <th scope="col" colspan="2">구 분</th>
+                            <th scope="col">구 분</th>
                             <th scope="col">주요 기술</th>
                             <th scope="col">기대효과</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <td><!-- image --></td>
                             <td>배송·인프라 첨단화</td>
                             <td>▪도심내 공동물류 및 지하운송<br>
                                 ▪단거리 전기운송수단<br>
@@ -5758,7 +5773,6 @@
                             <td>∙서비스 품질 향상, 배송비용·온실가스 저감</td>
                         </tr>
                         <tr>
-                            <td><!-- image --></td>
                             <td>물류 운영 디지털화</td>
                             <td>▪빅데이터 기반 물류정보 플랫폼 구축<br>
                                 ▪IoT기반 물류시설ㆍ장비 운영
@@ -5800,5 +5814,14 @@
     </div>
 </div>
 
+<script>
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+        e.target // newly activated tab
+        console.log(e.target);
+
+        $('a[data-toggle="tab"]').find('.blind').remove();
+        $(e.target).append('<span class="blind">선택됨</span>');
+    })
+</script>
 </body>
 </html>
